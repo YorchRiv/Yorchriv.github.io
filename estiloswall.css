@@ -23,26 +23,7 @@ body
 {
     background: white;
     height: auto;
-    width: 50%;
     background-color: white;
     padding: 1em;
     float: left;
-}
-
-#postr
-{
-    background: rgb(79, 133, 156);
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-#postr table
-{
-    margin: 0 auto;
-}
-#postr table th, td
-{
-    border-collapse: collapse;
-    border: 1px solid white;
-    background-color: rgb(46, 115, 136);
 }

@@ -69,6 +69,27 @@ footer .copyright{
     opacity: 0;
 }
 
+/* Agrega el siguiente bloque de CSS para el nuevo estilo sin hover */
+.post-preview.vision-mission>a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-preview.vision-mission ul {
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin-left: 30px; /* Ajusta el margen izquierdo del ul */
+}
+
+.post-preview.vision-mission li {
+    margin-bottom: 5px; /* Ajusta el espacio entre los puntos */
+}
+
+.post-preview.vision-mission li p {
+    margin: 0; /* Elimina cualquier margen predeterminado en el párrafo */
+}
+
+
+
 @media only screen and (max-width: 767px) {
     .navbar-default .navbar-brand {
         color: #ffffff; /* Cambia el color del texto a blanco */

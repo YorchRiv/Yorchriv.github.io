@@ -455,6 +455,8 @@ subheading {
 .post-preview.vision-mission .flex-container {
     display: flex;
     align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .post-preview.vision-mission .imgVi {
@@ -500,6 +502,93 @@ subheading {
     border: none;
 }
 
+/*Maps*/
+.container-maps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-maps h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.category {
+    width: 48%; /* Ancho de cada categoría */
+    padding: 20px;
+    margin: 10px;
+}
+
+.store {
+    display: flex; /* Usar flexbox para alinear la imagen y el texto en el eje horizontal */
+    align-items: center;
+    border: 1.5px solid #ddd;
+    border-radius: 30px 5px 30px 5px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.category h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.store p {
+    margin: 5px;
+    text-align: left;
+    font-size: 16px; /* Ajustar el tamaño del texto según tus necesidades */
+}
+
+.store h3 {
+    text-align: left;
+}
+
+.store img {
+    max-width: 200px; /* Ajustar el tamaño de la imagen según tus necesidades */
+    margin-right: 20px; /* Espacio entre la imagen y la información de la tienda */
+}
+
+.store.vip img{
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.viptitle{
+    text-align: center;
+}
+
+.location-info {
+    display: flex;
+    align-items: center; /* Centra verticalmente el icono y el texto */
+    margin: 5px 0; /* Espacio entre el icono y el texto */
+}
+
+.location-info img {
+    width: 24px; /* Ajusta el tamaño del icono según tus necesidades */
+    height: 24px;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+@media (max-width: 1000px) /*tiendas*/{
+    .container-maps {
+        flex-direction: column; /* Apila las categorías una encima de la otra */
+    }
+    .category {
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+    .store.vip{
+        flex-direction: column;
+    }
+}
 
 /* Navbar styles for wider screens */
 @media only screen and (min-width: 1170px) {

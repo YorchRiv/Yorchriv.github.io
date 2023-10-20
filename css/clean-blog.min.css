@@ -516,7 +516,7 @@ subheading {
 .category {
     width: 48%; /* Ancho de cada categoría */
     padding: 20px;
-    margin: 10px;
+    margin: 0px;
 }
 
 .store {
@@ -525,7 +525,7 @@ subheading {
     border: 1.5px solid #ddd;
     border-radius: 30px 5px 30px 5px;
     padding: 10px;
-    margin: auto;
+    margin: 10px;
     margin-bottom: 25px;
 }
 
@@ -551,6 +551,7 @@ subheading {
 
 .store.vip img{
     max-width: 50%;
+    margin: 10px;
 }
 
 .btn {
@@ -586,6 +587,13 @@ subheading {
         width: 100%; /* Ocupa todo el ancho disponible */
     }
     .store.vip{
+        flex-direction: column;
+    }
+    .store.vip img{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .store{
         flex-direction: column;
     }
 }

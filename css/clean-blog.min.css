@@ -528,6 +528,9 @@ subheading {
     margin: 10px;
     margin-bottom: 25px;
 }
+.store-info{
+    text-align: center;
+}
 
 .category h2 {
     margin-top: 5px;
@@ -579,7 +582,7 @@ subheading {
     margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 
-@media (max-width: 1000px) /*tiendas*/{
+@media only screen and (max-width: 1000px) /*tiendas*/{
     .container-maps {
         flex-direction: column; /* Apila las categorías una encima de la otra */
     }

@@ -582,6 +582,26 @@ subheading {
     margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 
+.carousel-container {
+    width: 100%; /* Reducir el ancho al 50% */
+    margin: 0 auto; /* Centrar horizontalmente */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center; /* Centrar las imágenes horizontalmente */
+}
+
+.carousel-slide img {
+    max-width: 100%; /* Asegurarse de que la imagen no supere el ancho del contenedor */
+    height: auto;
+}
+
+
+
+
 @media only screen and (max-width: 1000px) /*tiendas*/{
     .container-maps {
         flex-direction: column; /* Apila las categorías una encima de la otra */

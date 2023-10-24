@@ -599,6 +599,14 @@ subheading {
     .store{
         flex-direction: column;
     }
+    .post-preview.vision-mission .flex-container {
+        display: block;        
+        align-items: center;
+    }
+    .post-preview.vision-mission .imgVi {
+        max-width: 95%;
+        display: block;        
+    }
 }
 
 /* Navbar styles for wider screens */

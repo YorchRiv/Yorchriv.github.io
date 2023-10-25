@@ -405,7 +405,7 @@ th {
 
 /* Footer styles */
 footer {
-    background-color: RGB(56, 79, 241);
+    background-color: RGB(86, 84, 89);
 }
 
 footer .copyright {
@@ -498,7 +498,7 @@ subheading {
 }
 
 .navbar-default {
-    background-color: rgba(56, 79, 241, 0.6);
+    background-color: RGB(86, 84, 89, 0.6);
     border: none;
 }
 
@@ -590,7 +590,7 @@ subheading {
 }
 
 .carousel-slide {
-    display: none;
+    display: block;
     text-align: center; /* Centrar las imágenes horizontalmente */
 }
 
@@ -598,8 +598,9 @@ subheading {
     max-width: 100%; /* Asegurarse de que la imagen no supere el ancho del contenedor */
     height: auto;
 }
-
-
+.img-mobile{
+    display: none;
+}
 
 
 @media only screen and (max-width: 1000px) /*tiendas*/{
@@ -624,8 +625,19 @@ subheading {
         align-items: center;
     }
     .post-preview.vision-mission .imgVi {
-        max-width: 95%;
-        display: block;        
+        max-width: 70%;
+        display: block;
+        margin: 0 auto; /* Centra horizontalmente */
+        max-height: 100%;
+    }
+    .intro-header{
+        background-size: contain;
+    }
+    .img-mobile{
+        display: block;
+    }
+    .img-desktop{
+        display: none;
     }
 }
 

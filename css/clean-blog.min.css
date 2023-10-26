@@ -422,7 +422,7 @@ footer .copyright {
 
 /* Logo styles */
 .logo {
-    width: 110%;
+    width: 100%;
     display: block;
     margin: 0;
 }
@@ -636,7 +636,7 @@ subheading {
         align-items: center;
     }
     .post-preview.vision-mission .imgVi {
-        max-width: 70%;
+        max-width: 60%;
         display: block;
         margin: 0 auto; /* Centra horizontalmente */
         max-height: 100%;

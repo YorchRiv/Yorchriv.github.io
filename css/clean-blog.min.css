@@ -72,6 +72,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
+.navbar-brand img {
+    max-width: 100px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+
 .caption,
 .intro-header .page-heading,
 .intro-header .site-heading,
@@ -86,7 +92,7 @@ footer .copyright {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-bottom: 50px;
+    background-position: left;
 }
 
 .intro-header .page-heading,
@@ -498,7 +504,7 @@ subheading {
 }
 
 .navbar-default {
-    background-color: RGB(86, 84, 89, 0.6);
+    background-color: RGB(86, 84, 89, 1);
     border: none;
 }
 
@@ -602,7 +608,12 @@ subheading {
     display: none;
 }
 
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
 @media only screen and (max-width: 1000px) /*tiendas*/{
     .container-maps {
         flex-direction: column; /* Apila las categorías una encima de la otra */
@@ -631,7 +642,7 @@ subheading {
         max-height: 100%;
     }
     .intro-header{
-        background-size: contain;
+        background-size:cover;
     }
     .img-mobile{
         display: block;

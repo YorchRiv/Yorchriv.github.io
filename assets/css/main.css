@@ -2192,18 +2192,36 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+.table-norm{
+	border-collapse: collapse; /* Para evitar espacios entre los bordes de las celdas */
+ 	border: 1px solid #5b5b5b; /* Borde de la tabla */
+}
+
+.table-norm td{
+	border: 0.5px solid #5b5b5b; /* Borde de las celdas */
+  	padding: 0.5px; /* Espaciado interno para mejorar la legibilidad */	
+}
+
+.list-post p{
+	margin-bottom: 2px;
+}
+
+.title-centre h2{
+	text-align: center;
+}
+
 /* Header */
 
 	#header {
-		position: relative;
-		background-image: url("../../images/header.jpg");
+		position: relative;		
+		background-image: url("../../images/header.jpg");				
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
-		cursor: default;
+		cursor: default;	
 	}
 
 		#header:before {
@@ -2431,7 +2449,7 @@ input, select, textarea {
 		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
-		margin-bottom: 0;
+		margin-bottom: 0;		
 	}
 
 		#banner header > p {
